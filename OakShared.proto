@@ -1,4 +1,6 @@
+syntax = "proto2";
 package OakSave;
+option go_package = "github.com/cfi2017/bl3-save/pkg/pb";
 message Vec3 {
   optional float x = 1;
   optional float y = 2;

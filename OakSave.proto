@@ -1,4 +1,6 @@
+syntax = "proto2";
 package OakSave;
+option go_package = "github.com/cfi2017/bl3-save/pkg/pb";
 import "OakShared.proto";
 message PlayerClassSaveGameData {
   optional string player_class_path = 1;
