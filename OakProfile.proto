@@ -1,6 +1,6 @@
 syntax = "proto3";
 package OakSave;
-option go_package = "github.com/cfi2017/bl3-save/pkg/pb";
+option go_package = "github.com/cfi2017/bl3-save-core/pkg/pb";
 import "OakShared.proto";
 message PlayerInputBinding_Button {
   string rebind_data_path = 1;
